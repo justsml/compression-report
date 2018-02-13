@@ -7,7 +7,7 @@ Analyze size savings using GZip &amp; Brotli. Exports in YAML &amp; Markdown Tab
 # Add script to home path - move if needed
 curl -o ~/compression-report.sh https://raw.githubusercontent.com/justsml/compression-report/master/compression-report.sh
 # Add execute permissions
-chmox +x ~/compression-report.sh
+chmod +x ~/compression-report.sh
 ```
 
 
