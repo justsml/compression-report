@@ -26,16 +26,6 @@ Analyze size savings using GZip &amp; Brotli. Exports in YAML &amp; Markdown Tab
 | gzip        | 4.3K  (3.74 X smaller)
 | brotli      | 3.9K  (4.18 X smaller)
 
-### Example Markdown (Raw)
-
-```md
-### `dist/bundle.min.js` Compression Results
-| Utility     | File Size   |
-|-------------|-------------|
-| _original_  | 17K
-| gzip        | 4.3K  (3.74 X smaller)
-| brotli      | 3.9K  (4.18 X smaller)
-```
 
 ### Example YAML
 
@@ -52,5 +42,17 @@ pretty_size:
 size_reduction:
     gzip:     3.74x
     brotli:   4.18x
+```
+
+
+### Raw Markdown Preview
+
+```md
+### `dist/bundle.min.js` Compression Results
+| Utility     | File Size   |
+|-------------|-------------|
+| _original_  | 17K
+| gzip        | 4.3K  (3.74 X smaller)
+| brotli      | 3.9K  (4.18 X smaller)
 ```
 
